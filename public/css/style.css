@@ -1,0 +1,69 @@
+body {
+    color: rgb(33, 7, 95);
+}
+
+.container {
+    width: 30%;
+    margin: 0 auto;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    padding: 5px 0;
+}
+
+textarea:focus,
+input:focus {
+    width: 101%;
+    outline: 1px solid rgb(55, 32, 110);
+    border: none;
+    padding: 7px 2px;
+}
+
+button {
+    height: 35px;
+    background: rgb(33, 7, 95);
+    color: white;
+    outline: 0 !important;
+    border: 0 !important;
+}
+
+button:active {
+    outline: 0 !important;
+    border: 0!important;
+}
+
+button:focus {
+    outline: 0 !important;
+    border: 0 !important;
+}
+
+.menu {
+    background: rgb(33, 7, 95);
+    color: white;
+    padding: 10px;
+}
+
+.menu>a {
+    color: white;
+}
+
+.form {
+    padding: 10px;
+}
+
+.line {
+    border: 1px solid rgb(33, 7, 95);
+}
+
+.title {
+    font-size: 1.2em;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+}

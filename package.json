@@ -1,0 +1,20 @@
+{
+    "name": "wsb-azure-app",
+    "version": "1.0.0",
+    "description": "Azure app in nodejs and mongodb",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "SET NODE_ENV=test& nodemon app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^5.2.0",
+        "mongodb": "^3.6.3"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}

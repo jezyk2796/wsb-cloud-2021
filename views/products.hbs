@@ -1,0 +1,18 @@
+<h1>Products List</h1>
+
+{{#if hasProducts }}
+
+    {{#each products }}
+    <ul>
+        <li class="title"><strong>{{ this.name }}</strong></li>
+        <li><i>{{ this.price }} PLN</i></li>
+        <li>{{ this.description }}</li>
+        <li><a href="/admin/delete-product/{{this._id}}" class="btn" onclick="return confirm('Are you sure?')">Delete</a></li>
+    </ul>
+    <hr class="line">
+    {{/each}}
+
+
+{{ else }}
+<h1>No products found !</h1>
+{{/if}}
